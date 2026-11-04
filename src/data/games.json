@@ -1,0 +1,402 @@
+[
+  {
+    "id": "g001",
+    "title": "Pitfall!",
+    "consoleId": "atari-2600",
+    "genre": "Platformer",
+    "releaseYear": 1982,
+    "developer": "Activision",
+    "description": "Guide Pitfall Harry through a jungle full of crocodiles, scorpions and rolling logs to collect treasure against a 20-minute clock.",
+    "rating": 4.0
+  },
+  {
+    "id": "g002",
+    "title": "Pac-Man",
+    "consoleId": "atari-2600",
+    "genre": "Maze",
+    "releaseYear": 1982,
+    "developer": "Atari",
+    "description": "The famous maze chase ported to the 2600, where you eat dots and avoid four ghosts.",
+    "rating": 3.0
+  },
+  {
+    "id": "g003",
+    "title": "Space Invaders",
+    "consoleId": "atari-2600",
+    "genre": "Shooter",
+    "releaseYear": 1980,
+    "developer": "Atari",
+    "description": "Defend Earth from rows of descending aliens in the arcade hit that made the 2600 a best-seller.",
+    "rating": 4.0
+  },
+  {
+    "id": "g004",
+    "title": "River Raid",
+    "consoleId": "atari-2600",
+    "genre": "Shooter",
+    "releaseYear": 1982,
+    "developer": "Activision",
+    "description": "Fly a jet up a winding river, shooting enemies and refuelling to stay in the air.",
+    "rating": 4.2
+  },
+  {
+    "id": "g005",
+    "title": "Super Mario Bros.",
+    "consoleId": "nes",
+    "genre": "Platformer",
+    "releaseYear": 1985,
+    "developer": "Nintendo",
+    "description": "Run and jump through the Mushroom Kingdom to rescue Princess Peach from Bowser.",
+    "rating": 4.8
+  },
+  {
+    "id": "g006",
+    "title": "The Legend of Zelda",
+    "consoleId": "nes",
+    "genre": "Action-Adventure",
+    "releaseYear": 1986,
+    "developer": "Nintendo",
+    "description": "Explore the overworld of Hyrule and clear dungeons to collect the pieces of the Triforce.",
+    "rating": 4.7
+  },
+  {
+    "id": "g007",
+    "title": "Mega Man 2",
+    "consoleId": "nes",
+    "genre": "Action Platformer",
+    "releaseYear": 1988,
+    "developer": "Capcom",
+    "description": "Take on eight robot masters, steal their weapons and storm Dr. Wily's fortress.",
+    "rating": 4.6
+  },
+  {
+    "id": "g008",
+    "title": "Metroid",
+    "consoleId": "nes",
+    "genre": "Action-Adventure",
+    "releaseYear": 1986,
+    "developer": "Nintendo",
+    "description": "Play as bounty hunter Samus Aran exploring the alien planet Zebes in a non-linear world.",
+    "rating": 4.4
+  },
+  {
+    "id": "g009",
+    "title": "Sonic the Hedgehog",
+    "consoleId": "mega-drive",
+    "genre": "Platformer",
+    "releaseYear": 1991,
+    "developer": "Sonic Team",
+    "description": "Race through loops and slopes as Sonic to stop Dr. Robotnik from turning animals into robots.",
+    "rating": 4.5
+  },
+  {
+    "id": "g010",
+    "title": "Streets of Rage 2",
+    "consoleId": "mega-drive",
+    "genre": "Beat 'em up",
+    "releaseYear": 1992,
+    "developer": "Sega",
+    "description": "Fight through city streets with a great soundtrack and fast combat, solo or with a friend.",
+    "rating": 4.7
+  },
+  {
+    "id": "g011",
+    "title": "Phantasy Star IV",
+    "consoleId": "mega-drive",
+    "genre": "RPG",
+    "releaseYear": 1993,
+    "developer": "Sega",
+    "description": "A sci-fi RPG that wraps up the Phantasy Star saga with comic-style cutscenes and combo attacks.",
+    "rating": 4.5
+  },
+  {
+    "id": "g012",
+    "title": "Gunstar Heroes",
+    "consoleId": "mega-drive",
+    "genre": "Run and Gun",
+    "releaseYear": 1993,
+    "developer": "Treasure",
+    "description": "A chaotic run-and-gun with weapon combinations, huge bosses and non-stop action.",
+    "rating": 4.6
+  },
+  {
+    "id": "g013",
+    "title": "Tetris",
+    "consoleId": "game-boy",
+    "genre": "Puzzle",
+    "releaseYear": 1989,
+    "developer": "Nintendo",
+    "description": "Stack falling blocks to clear lines in the puzzle game that made the Game Boy a household name.",
+    "rating": 4.8
+  },
+  {
+    "id": "g014",
+    "title": "Pokémon Red and Blue",
+    "consoleId": "game-boy",
+    "genre": "RPG",
+    "releaseYear": 1996,
+    "developer": "Game Freak",
+    "description": "Catch, train and trade creatures as you challenge gym leaders on the way to becoming champion.",
+    "rating": 4.6
+  },
+  {
+    "id": "g015",
+    "title": "The Legend of Zelda: Link's Awakening",
+    "consoleId": "game-boy",
+    "genre": "Action-Adventure",
+    "releaseYear": 1993,
+    "developer": "Nintendo",
+    "description": "Link is stranded on Koholint Island and must wake the Wind Fish to escape.",
+    "rating": 4.7
+  },
+  {
+    "id": "g016",
+    "title": "Super Mario Land",
+    "consoleId": "game-boy",
+    "genre": "Platformer",
+    "releaseYear": 1989,
+    "developer": "Nintendo",
+    "description": "Mario's first handheld adventure, set in Sarasaland and packed with short, quirky levels.",
+    "rating": 3.8
+  },
+  {
+    "id": "g017",
+    "title": "Super Mario World",
+    "consoleId": "snes",
+    "genre": "Platformer",
+    "releaseYear": 1990,
+    "developer": "Nintendo",
+    "description": "Mario and Yoshi explore Dinosaur Land with secret exits, a cape and a huge map.",
+    "rating": 4.8
+  },
+  {
+    "id": "g018",
+    "title": "The Legend of Zelda: A Link to the Past",
+    "consoleId": "snes",
+    "genre": "Action-Adventure",
+    "releaseYear": 1991,
+    "developer": "Nintendo",
+    "description": "Travel between the Light and Dark Worlds to defeat Ganon and save Hyrule.",
+    "rating": 4.9
+  },
+  {
+    "id": "g019",
+    "title": "Chrono Trigger",
+    "consoleId": "snes",
+    "genre": "RPG",
+    "releaseYear": 1995,
+    "developer": "Square",
+    "description": "A time-travelling RPG with multiple endings, tech combos and a famous soundtrack.",
+    "rating": 4.9
+  },
+  {
+    "id": "g020",
+    "title": "Super Metroid",
+    "consoleId": "snes",
+    "genre": "Action-Adventure",
+    "releaseYear": 1994,
+    "developer": "Nintendo",
+    "description": "Samus returns to Zebes to recover the last Metroid in an atmospheric, exploration-focused classic.",
+    "rating": 4.9
+  },
+  {
+    "id": "g021",
+    "title": "Final Fantasy VII",
+    "consoleId": "ps1",
+    "genre": "RPG",
+    "releaseYear": 1997,
+    "developer": "Square",
+    "description": "Cloud and AVALANCHE fight the Shinra corporation and the villain Sephiroth in a landmark RPG.",
+    "rating": 4.8
+  },
+  {
+    "id": "g022",
+    "title": "Metal Gear Solid",
+    "consoleId": "ps1",
+    "genre": "Stealth",
+    "releaseYear": 1998,
+    "developer": "Konami",
+    "description": "Solid Snake infiltrates a nuclear weapons base in a cinematic stealth game.",
+    "rating": 4.7
+  },
+  {
+    "id": "g023",
+    "title": "Crash Bandicoot",
+    "consoleId": "ps1",
+    "genre": "Platformer",
+    "releaseYear": 1996,
+    "developer": "Naughty Dog",
+    "description": "Spin, jump and dodge through tropical islands as the PlayStation's mascot platformer.",
+    "rating": 4.1
+  },
+  {
+    "id": "g024",
+    "title": "Castlevania: Symphony of the Night",
+    "consoleId": "ps1",
+    "genre": "Action RPG",
+    "releaseYear": 1997,
+    "developer": "Konami",
+    "description": "Explore Dracula's castle as Alucard in a game that defined the Metroidvania style.",
+    "rating": 4.8
+  },
+  {
+    "id": "g025",
+    "title": "Super Mario 64",
+    "consoleId": "n64",
+    "genre": "Platformer",
+    "releaseYear": 1996,
+    "developer": "Nintendo",
+    "description": "Mario's leap into 3D, exploring painting worlds in Peach's castle to collect Power Stars.",
+    "rating": 4.8
+  },
+  {
+    "id": "g026",
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "consoleId": "n64",
+    "genre": "Action-Adventure",
+    "releaseYear": 1998,
+    "developer": "Nintendo",
+    "description": "Link travels through time to stop Ganondorf in one of the most acclaimed games ever made.",
+    "rating": 4.9
+  },
+  {
+    "id": "g027",
+    "title": "GoldenEye 007",
+    "consoleId": "n64",
+    "genre": "First-Person Shooter",
+    "releaseYear": 1997,
+    "developer": "Rare",
+    "description": "A Bond shooter with mission objectives and a famous four-player split-screen multiplayer mode.",
+    "rating": 4.6
+  },
+  {
+    "id": "g028",
+    "title": "Mario Kart 64",
+    "consoleId": "n64",
+    "genre": "Racing",
+    "releaseYear": 1996,
+    "developer": "Nintendo",
+    "description": "Race friends in 3D tracks with items, shortcuts and four-player battles.",
+    "rating": 4.4
+  },
+  {
+    "id": "g029",
+    "title": "Shenmue",
+    "consoleId": "dreamcast",
+    "genre": "Action-Adventure",
+    "releaseYear": 1999,
+    "developer": "Sega",
+    "description": "Ryo Hazuki searches Yokosuka for his father's killer in an open, detailed city.",
+    "rating": 4.2
+  },
+  {
+    "id": "g030",
+    "title": "Jet Set Radio",
+    "consoleId": "dreamcast",
+    "genre": "Action",
+    "releaseYear": 2000,
+    "developer": "Smilebit",
+    "description": "Skate around Tokyo-to spraying graffiti in a stylish cel-shaded game with a funky soundtrack.",
+    "rating": 4.4
+  },
+  {
+    "id": "g031",
+    "title": "Sonic Adventure",
+    "consoleId": "dreamcast",
+    "genre": "Platformer",
+    "releaseYear": 1998,
+    "developer": "Sonic Team",
+    "description": "Sonic's first full 3D adventure with six playable characters and a branching story.",
+    "rating": 3.9
+  },
+  {
+    "id": "g032",
+    "title": "Crazy Taxi",
+    "consoleId": "dreamcast",
+    "genre": "Racing",
+    "releaseYear": 1999,
+    "developer": "Hitmaker",
+    "description": "Pick up passengers and race through the city to get them to their destination against the clock.",
+    "rating": 4.3
+  },
+  {
+    "id": "g033",
+    "title": "Grand Theft Auto: San Andreas",
+    "consoleId": "ps2",
+    "genre": "Action-Adventure",
+    "releaseYear": 2004,
+    "developer": "Rockstar North",
+    "description": "CJ returns to Los Santos in a huge open-world crime story spanning three cities.",
+    "rating": 4.7
+  },
+  {
+    "id": "g034",
+    "title": "Shadow of the Colossus",
+    "consoleId": "ps2",
+    "genre": "Action-Adventure",
+    "releaseYear": 2005,
+    "developer": "Team Ico",
+    "description": "Hunt sixteen giant colossi across an empty land in a quiet, emotional game.",
+    "rating": 4.8
+  },
+  {
+    "id": "g035",
+    "title": "God of War",
+    "consoleId": "ps2",
+    "genre": "Action",
+    "releaseYear": 2005,
+    "developer": "Santa Monica Studio",
+    "description": "Kratos fights through Greek myth for revenge on Ares in brutal, fast-paced combat.",
+    "rating": 4.6
+  },
+  {
+    "id": "g036",
+    "title": "Gran Turismo 3: A-Spec",
+    "consoleId": "ps2",
+    "genre": "Racing",
+    "releaseYear": 2001,
+    "developer": "Polyphony Digital",
+    "description": "A realistic driving simulator with licensed cars, tuning and a long career mode.",
+    "rating": 4.6
+  },
+  {
+    "id": "g037",
+    "title": "Pokémon Emerald",
+    "consoleId": "gba",
+    "genre": "RPG",
+    "releaseYear": 2004,
+    "developer": "Game Freak",
+    "description": "Explore the Hoenn region and stop Team Magma and Team Aqua in the definitive third-generation Pokémon game.",
+    "rating": 4.6
+  },
+  {
+    "id": "g038",
+    "title": "Metroid Fusion",
+    "consoleId": "gba",
+    "genre": "Action-Adventure",
+    "releaseYear": 2002,
+    "developer": "Nintendo",
+    "description": "Samus is hunted by the X parasite aboard a research station in a tense sci-fi sequel.",
+    "rating": 4.4
+  },
+  {
+    "id": "g039",
+    "title": "Advance Wars",
+    "consoleId": "gba",
+    "genre": "Strategy",
+    "releaseYear": 2001,
+    "developer": "Intelligent Systems",
+    "description": "Command armies in turn-based tactical battles on grid maps, with colourful commanders and abilities.",
+    "rating": 4.6
+  },
+  {
+    "id": "g040",
+    "title": "Golden Sun",
+    "consoleId": "gba",
+    "genre": "RPG",
+    "releaseYear": 2001,
+    "developer": "Camelot",
+    "description": "A puzzle-filled RPG with elemental magic called Psynergy and impressive graphics for the GBA.",
+    "rating": 4.4
+  }
+]

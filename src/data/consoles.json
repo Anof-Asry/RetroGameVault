@@ -1,0 +1,82 @@
+[
+  {
+    "id": "atari-2600",
+    "name": "Atari 2600",
+    "manufacturer": "Atari",
+    "releaseYear": 1977,
+    "description": "The console that brought arcade gaming into living rooms and defined the early home video game market.",
+    "color": "#8B4513"
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System (NES)",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1983,
+    "description": "An 8-bit console that revived the video game industry after the 1983 crash and launched Mario and Zelda.",
+    "color": "#C0392B"
+  },
+  {
+    "id": "mega-drive",
+    "name": "Sega Mega Drive / Genesis",
+    "manufacturer": "Sega",
+    "releaseYear": 1988,
+    "description": "A 16-bit console famous for fast-paced action games and the rivalry between Sonic and Mario.",
+    "color": "#1F2D3D"
+  },
+  {
+    "id": "game-boy",
+    "name": "Game Boy",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1989,
+    "description": "A rugged handheld with a monochrome screen and long battery life that made portable gaming mainstream.",
+    "color": "#7F8C6A"
+  },
+  {
+    "id": "snes",
+    "name": "Super Nintendo (SNES)",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1990,
+    "description": "A 16-bit console praised for its colourful graphics, sound quality and a legendary library of classics.",
+    "color": "#6C5B7B"
+  },
+  {
+    "id": "ps1",
+    "name": "PlayStation (PS1)",
+    "manufacturer": "Sony",
+    "releaseYear": 1994,
+    "description": "Sony's first console, which brought 3D gaming and CD-based games to a massive audience.",
+    "color": "#34495E"
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "manufacturer": "Nintendo",
+    "releaseYear": 1996,
+    "description": "Nintendo's first 3D console, known for its four controller ports and groundbreaking 3D platformers.",
+    "color": "#2E86C1"
+  },
+  {
+    "id": "dreamcast",
+    "name": "Sega Dreamcast",
+    "manufacturer": "Sega",
+    "releaseYear": 1998,
+    "description": "Sega's final console, ahead of its time with built-in online features and arcade-quality games.",
+    "color": "#E67E22"
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2 (PS2)",
+    "manufacturer": "Sony",
+    "releaseYear": 2000,
+    "description": "The best-selling console of all time, with a huge library spanning almost every genre.",
+    "color": "#1B2631"
+  },
+  {
+    "id": "gba",
+    "name": "Game Boy Advance (GBA)",
+    "manufacturer": "Nintendo",
+    "releaseYear": 2001,
+    "description": "A 32-bit handheld with a colour screen that brought SNES-quality games on the go.",
+    "color": "#8E44AD"
+  }
+]
