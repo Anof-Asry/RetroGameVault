@@ -2,7 +2,7 @@ import { NavigatorScreenParams } from '@react-navigation/native';
 
 export type TabParamList = {
   Home: undefined;
-  Library: { consoleId?: string } | undefined;
+  Library: { consoleId?: string; ts?: number } | undefined;
   Collection: undefined;
   Consoles: undefined;
 };

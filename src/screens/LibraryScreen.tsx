@@ -59,7 +59,7 @@ export default function LibraryScreen() {
     if (route.params?.consoleId) {
       setSelectedConsole(route.params.consoleId);
     }
-  }, [route.params?.consoleId]);
+  }, [route.params?.consoleId, route.params?.ts]);
 
   const consoleMap = useMemo(() => {
     const map: Record<string, GameConsole> = {};
