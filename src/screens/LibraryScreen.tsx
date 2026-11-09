@@ -112,6 +112,7 @@ export default function LibraryScreen() {
 
   return (
     <View style={styles.container}>
+      <View style={styles.libraryIntro}><View><Text style={styles.libraryEyebrow}>THE GAME ROOM</Text><Text style={styles.libraryTitle}>Find your next{ '\n' }favorite.</Text></View><View style={styles.libraryIcon}><Ionicons name="sparkles" size={25} color="#17203A" /></View></View>
       <View style={styles.searchBox}>
         <Ionicons name="search" size={18} color="#8A8AA3" />
         <TextInput
@@ -223,13 +224,17 @@ export default function LibraryScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#121212', paddingHorizontal: 16, paddingTop: 12 },
+  container: { flex: 1, backgroundColor: '#10152B', paddingHorizontal: 16, paddingTop: 12 },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingTop: 60 },
-  emptyText: { color: '#8A8AA3', fontSize: 16, marginTop: 8 },
+  emptyText: { color: '#929DBD', fontSize: 16, marginTop: 8 },
+  libraryIntro: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#333A71', borderRadius: 20, padding: 18, marginBottom: 5, overflow: 'hidden' },
+  libraryEyebrow: { color: '#C5D0FF', fontSize: 9, fontWeight: '900', letterSpacing: 2 },
+  libraryTitle: { color: '#FFFFFF', fontSize: 25, fontWeight: '900', lineHeight: 28, marginTop: 7 },
+  libraryIcon: { width: 54, height: 54, backgroundColor: '#B9F36A', borderRadius: 17, alignItems: 'center', justifyContent: 'center', transform: [{ rotate: '8deg' }] },
   searchBox: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
     borderRadius: 12,
     paddingHorizontal: 12,
     height: 46,
@@ -241,13 +246,13 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 7,
     borderRadius: 18,
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
   },
-  chipActive: { backgroundColor: '#F5B301' },
-  chipText: { color: '#C9C9DB', fontSize: 13, fontWeight: '500' },
-  chipTextActive: { color: '#121212', fontWeight: '700' },
+  chipActive: { backgroundColor: '#B9F36A' },
+  chipText: { color: '#AAB2CF', fontSize: 13, fontWeight: '500' },
+  chipTextActive: { color: '#10152B', fontWeight: '700' },
   sortRow: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 10 },
-  sortLabel: { color: '#8A8AA3', fontSize: 13 },
+  sortLabel: { color: '#929DBD', fontSize: 13 },
   countRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -255,8 +260,8 @@ const styles = StyleSheet.create({
     marginTop: 12,
     marginBottom: 8,
   },
-  countText: { color: '#8A8AA3', fontSize: 13 },
-  clearText: { color: '#F5B301', fontSize: 13, fontWeight: '600' },
+  countText: { color: '#929DBD', fontSize: 13 },
+  clearText: { color: '#B9F36A', fontSize: 13, fontWeight: '600' },
   listContent: { paddingBottom: 90 },
   fab: {
     position: 'absolute',
@@ -265,7 +270,7 @@ const styles = StyleSheet.create({
     width: 56,
     height: 56,
     borderRadius: 28,
-    backgroundColor: '#F5B301',
+    backgroundColor: '#B9F36A',
     alignItems: 'center',
     justifyContent: 'center',
     elevation: 6,

@@ -134,28 +134,28 @@ export default function CollectionScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#121212', paddingHorizontal: 16, paddingTop: 12 },
+  container: { flex: 1, backgroundColor: '#10152B', paddingHorizontal: 16, paddingTop: 12 },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', paddingTop: 60 },
   segmentRow: {
     flexDirection: 'row',
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
     borderRadius: 12,
     padding: 4,
     marginBottom: 14,
   },
   segment: { flex: 1, paddingVertical: 10, borderRadius: 9, alignItems: 'center' },
-  segmentActive: { backgroundColor: '#F5B301' },
-  segmentText: { color: '#C9C9DB', fontSize: 13, fontWeight: '500' },
-  segmentTextActive: { color: '#121212', fontWeight: '700' },
+  segmentActive: { backgroundColor: '#B9F36A' },
+  segmentText: { color: '#AAB2CF', fontSize: 13, fontWeight: '500' },
+  segmentTextActive: { color: '#10152B', fontWeight: '700' },
   listContent: { paddingBottom: 30, flexGrow: 1 },
   emptyTitle: { color: '#FFFFFF', fontSize: 18, fontWeight: '700', marginTop: 12 },
-  emptyText: { color: '#8A8AA3', fontSize: 14, marginTop: 6, textAlign: 'center' },
+  emptyText: { color: '#929DBD', fontSize: 14, marginTop: 6, textAlign: 'center' },
   browseButton: {
     marginTop: 18,
-    backgroundColor: '#F5B301',
+    backgroundColor: '#B9F36A',
     paddingHorizontal: 22,
     paddingVertical: 11,
     borderRadius: 12,
   },
-  browseText: { color: '#121212', fontSize: 15, fontWeight: '700' },
+  browseText: { color: '#10152B', fontSize: 15, fontWeight: '700' },
 });

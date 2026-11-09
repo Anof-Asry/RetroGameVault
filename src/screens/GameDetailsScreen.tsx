@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useState } from 'react';
 import {
   Alert,
+  ImageBackground,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -15,6 +16,7 @@ import { useGames } from '../context/GameContext';
 import { RootStackParamList } from '../navigation/types';
 import { GameStatus } from '../types';
 import { getInitials } from '../utils/helpers';
+import { getGameArtwork } from '../utils/gameArtwork';
 
 const STATUS_OPTIONS: {
   key: GameStatus;
@@ -83,13 +85,12 @@ export default function GameDetailsScreen() {
       keyboardShouldPersistTaps="handled"
     >
       {/* Hero */}
-      <View style={[styles.hero, { backgroundColor: gameConsole?.color ?? '#444444' }]}>
-        <View style={styles.heroBadge}>
-          <Text style={styles.heroInitials}>{getInitials(game.title)}</Text>
-        </View>
+      <ImageBackground source={getGameArtwork(game.genre)} imageStyle={styles.heroImage} style={styles.hero}>
+        <View style={styles.heroOverlay} />
+        <View style={styles.heroBadge}><Text style={styles.heroInitials}>{getInitials(game.title)}</Text></View>
         <Text style={styles.heroTitle}>{game.title}</Text>
-        <Text style={styles.heroSub}>{gameConsole?.name ?? 'Unknown console'}</Text>
-      </View>
+        <Text style={styles.heroSub}>{gameConsole?.name ?? 'Unknown console'} · {game.releaseYear}</Text>
+      </ImageBackground>
 
       {/* Favorite */}
       <Pressable
@@ -133,7 +134,7 @@ export default function GameDetailsScreen() {
               <Ionicons
                 name={option.icon}
                 size={18}
-                color={active ? '#121212' : '#C9C9DB'}
+                color={active ? '#10152B' : '#AAB2CF'}
               />
               <Text style={[styles.statusText, active && styles.statusTextActive]}>
                 {option.label}
@@ -212,11 +213,13 @@ export default function GameDetailsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#121212' },
+  container: { flex: 1, backgroundColor: '#10152B' },
   content: { padding: 16, paddingBottom: 40 },
-  center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#121212' },
-  emptyText: { color: '#8A8AA3', fontSize: 16 },
-  hero: { borderRadius: 16, alignItems: 'center', padding: 24 },
+  center: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#10152B' },
+  emptyText: { color: '#929DBD', fontSize: 16 },
+  hero: { height: 245, borderRadius: 22, alignItems: 'center', justifyContent: 'flex-end', padding: 22, overflow: 'hidden', marginBottom: 15 },
+  heroImage: { borderRadius: 22 },
+  heroOverlay: { ...StyleSheet.absoluteFill, backgroundColor: 'rgba(11,15,32,0.38)' },
   heroBadge: {
     width: 88,
     height: 88,
@@ -255,9 +258,9 @@ const styles = StyleSheet.create({
     marginTop: 22,
     marginBottom: 8,
   },
-  description: { color: '#C9C9DB', fontSize: 15, lineHeight: 22 },
+  description: { color: '#AAB2CF', fontSize: 15, lineHeight: 22 },
   card: {
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
     borderRadius: 12,
     paddingHorizontal: 14,
     paddingVertical: 6,
@@ -268,9 +271,9 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     paddingVertical: 10,
     borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: '#2A2A3C',
+    borderBottomColor: '#2A3151',
   },
-  infoLabel: { color: '#8A8AA3', fontSize: 14 },
+  infoLabel: { color: '#929DBD', fontSize: 14 },
   infoValue: { color: '#FFFFFF', fontSize: 14, fontWeight: '500', flexShrink: 1, textAlign: 'right', marginLeft: 12 },
   statusRow: { flexDirection: 'row', gap: 8 },
   statusButton: {
@@ -279,17 +282,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 6,
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
     borderRadius: 12,
     paddingVertical: 12,
   },
-  statusButtonActive: { backgroundColor: '#F5B301' },
-  statusText: { color: '#C9C9DB', fontSize: 14, fontWeight: '500' },
-  statusTextActive: { color: '#121212', fontWeight: '700' },
+  statusButtonActive: { backgroundColor: '#B9F36A' },
+  statusText: { color: '#AAB2CF', fontSize: 14, fontWeight: '500' },
+  statusTextActive: { color: '#10152B', fontWeight: '700' },
   starsRow: { flexDirection: 'row', gap: 6 },
-  hint: { color: '#8A8AA3', fontSize: 12, marginTop: 6 },
+  hint: { color: '#929DBD', fontSize: 12, marginTop: 6 },
   notesInput: {
-    backgroundColor: '#1E1E2E',
+    backgroundColor: '#1A203B',
     color: '#FFFFFF',
     borderRadius: 12,
     padding: 12,
@@ -297,14 +300,14 @@ const styles = StyleSheet.create({
     fontSize: 15,
   },
   saveButton: {
-    backgroundColor: '#F5B301',
+    backgroundColor: '#B9F36A',
     borderRadius: 12,
     paddingVertical: 12,
     alignItems: 'center',
     marginTop: 10,
   },
   saveButtonDisabled: { backgroundColor: '#3A3A4E' },
-  saveText: { color: '#121212', fontSize: 15, fontWeight: '700' },
+  saveText: { color: '#10152B', fontSize: 15, fontWeight: '700' },
   actionsRow: { flexDirection: 'row', gap: 10, marginTop: 24 },
   actionButton: {
     flex: 1,

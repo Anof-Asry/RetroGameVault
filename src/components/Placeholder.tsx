@@ -20,8 +20,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#121212',
+    backgroundColor: '#10152B',
   },
   title: { color: '#FFFFFF', fontSize: 24, fontWeight: 'bold' },
-  sub: { color: '#8A8AA3', fontSize: 16, marginTop: 8 },
+  sub: { color: '#929DBD', fontSize: 16, marginTop: 8 },
 });

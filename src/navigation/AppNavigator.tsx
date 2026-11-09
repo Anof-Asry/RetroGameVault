@@ -20,11 +20,11 @@ const theme = {
   dark: true,
   colors: {
     ...DefaultTheme.colors,
-    primary: '#F5B301',
-    background: '#121212',
-    card: '#1E1E2E',
-    text: '#FFFFFF',
-    border: '#2A2A3C',
+    primary: '#B9F36A',
+    background: '#10152B',
+    card: '#1A203B',
+    text: '#F4F5FC',
+    border: '#2A3151',
   },
 };
 
@@ -42,8 +42,19 @@ function TabNavigator() {
         tabBarIcon: ({ color, size }) => (
           <Ionicons name={tabIcons[route.name]} size={size} color={color} />
         ),
-        tabBarActiveTintColor: '#F5B301',
-        tabBarInactiveTintColor: '#8A8AA3',
+        tabBarActiveTintColor: '#B9F36A',
+        tabBarInactiveTintColor: '#8993B2',
+        tabBarStyle: {
+          backgroundColor: '#171D36',
+          borderTopColor: '#2A3151',
+          height: 62,
+          paddingTop: 7,
+          paddingBottom: 7,
+        },
+        tabBarLabelStyle: { fontSize: 10, fontWeight: '700' },
+        headerStyle: { backgroundColor: '#171D36' },
+        headerTintColor: '#F4F5FC',
+        headerTitleStyle: { fontWeight: '800' },
       })}
     >
       <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Retro Game Vault' }} />
